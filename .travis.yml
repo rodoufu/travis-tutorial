@@ -11,7 +11,7 @@ before_script:
   - lcov --directory . --zerocounters
 
 compiler:
-  - clang
+#   - clang
   - g++
 
 script:
